@@ -18,7 +18,24 @@ apikey 발급이 필요없는 파파고 번역
 2. Language를 /bin/bash
 3. /usr/local/bin/node main.js [언어1] [언어2] "$1"
    - 언어1에서 언어2로 번역됨
-   - 언어1, 언어2는 단축어로 써야함
+   - 언어1, 언어2는 아래의 단축어로 써야함
    - ex) /usr/local/bin/node main.js en ko "$1" (영어 -> 한국어)
    - ex) /usr/local/bin/node main.js ko en "$1" (한국어 -> 영어)
-   - ex) /usr/local/bin/node main.js cn ko "$1" (중국어 -> 한국어)
+   - ex) /usr/local/bin/node main.js zh-CN ko "$1" (중국어 -> 한국어)
+
+      - auto - 언어감지
+      - ko - 한국어
+      - en - 영어
+      - es - 스페인어
+      - fr - 프랑스어
+      - id - 인도네이사어
+      - ja - 일본어
+      - th - 태국어
+      - vi - 베트남어
+      - zh-CN - 중국어 간체
+      - zh-TW - 중국어 번체
+      - de - 독일어
+      - ru - 러시아어
+      - pt - 포루투갈어
+      - hi - 힌디어
+      - it - 이탈리아어

@@ -19,7 +19,8 @@ apikey 발급이 필요없는 파파고 번역
 
 1. script filter(오른쪽 클릭 -> input -> script filter) 생성
 2. Language를 /bin/bash
-3. /usr/local/bin/node main.js [언어1] [언어2] "$1"
+3. (nodejs 있어야 하는 버전) /usr/local/bin/node main.js [언어1] [언어2] "$1"
+3-1. (nodejs 없어도 되는 버전) ./node_modules/.bin/run-node main.js [언어1] [언어2] "$1"
 
    - 언어1에서 언어2로 번역됨
    - 언어1, 언어2는 아래의 단축어로 써야함

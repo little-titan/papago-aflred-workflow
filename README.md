@@ -11,7 +11,7 @@ apikey 발급이 필요없는 파파고 번역
 - (nodejs)
 
 ## keyword
-
+- ppgak - 언어감지 -> 한국어
 - ppgke - 한국어 -> 영어
 - ppgek - 영어 -> 한국어
 

@@ -5,6 +5,7 @@ apikey 발급이 필요없는 파파고 번역
 ## requirements
 
 - nodejs
+- 알프레드 유료 버전
 
 ## keyword
 

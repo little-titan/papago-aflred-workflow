@@ -9,6 +9,7 @@ apikey 발급이 필요없는 파파고 번역
 
 - 알프레드 유료 버전
 - (nodejs)
+- Nodejs fetch (global install) 
 
 ## keyword
 - ppgak - 언어감지 -> 한국어
